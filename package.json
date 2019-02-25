@@ -1,5 +1,5 @@
 {
-  "name": "demo-ionic-tab-routing",
+  "name": "demo-ionic-tabs-back-button",
   "version": "1.0.0",
   "author": "Marcel Mayer",
   "homepage": "http://servrox.solutions/",
@@ -54,5 +54,5 @@
     "tslint": "~5.12.0",
     "typescript": "~3.1.6"
   },
-  "description": "An Ionic project which shows different kinds of route definition for a tab based layout."
+  "description": "An Ionic 4 project which shows back (and forth) navigation between tabs and 'global' pages."
 }

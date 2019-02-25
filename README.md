@@ -1,56 +1,19 @@
-# Demo: Ionic project with a tab based layout <br /> which shows different kinds of route definitions <br /> for lazy modules
+# Demo: Ionic 4 project with a tab based layout <br /> which shows workarounds for the ion-back-button <br /> when navigating between tabs and 'global' pages. <br />
 
-![Live Demo](http://g.recordit.co/iTEmjAK5f9.gif)
+The demo shows two ways to navigate from a tabbed page to a 'global' page and back.
 
-## Explanation
+## 1. Passing previous page
 
-The example includes **two kinds of route definition**,<br />
-which are shown in *Tab One* and *Tab Two*.<br />
-You can also see how to **dynamically adjust the routing** to use pages in different tabs.<br />
-<br />
-The normal page flow for each tab is *Tab -> Profile -> Profile Settings*.<br />
-The module flow is following: *App -> Tabs -> Tab -> Profile -> ProfileSettings*.<br />
-Each page is a lazy loaded module.<br />
-For the navigation to the previous page I used the *ion-back-button*.<br />
-Each tab is stateful, which means that displayed pages are kept at a tab change.<br />
-<br />
-Because the profile page can be called by tab one and tab two,<br />
-there is some logic to make back and forth navigation work correctly.
+tbd
 
-### Route definition for Tab One
+## 2. Fixing ion-back-button directive
 
-For *Tab One* the whole page flow is defined in one file (s. *tabs.router.module.ts*).<br />
-It is also possible to move the whole routing in *app-routing.module.ts*.
-
-### Route definition for Tab Two
-
-For *Tab Two* there's only one one route definiton in *tabs.router.module.ts*:<br />
-*TabsModule -> Tab2PageModule*.<br />
-Every further route is defined in the then loaded module,<br />
-for this demo it means that the modules loaded behind *Tab Two* defining two routes.<br />
-<br />
-First a *no-name-route* which loads the corresponding component.<br />
-(For the *ProfilePageModule* that means the *ProfilePage*.)<br />
-Second the page-module we can route to.<br />
-(For the *ProfilePageModule* that means the *ProfileSettingsPageModule*.)
-
-## Important tip
-
-With Ionic [4.0.0-beta.18](https://github.com/ionic-team/ionic/blob/master/CHANGELOG.md#400-beta18-2018-12-13) there was breaking changes for angular tabs.<br />
-The usage of ion-tab was removed and it's not necessary to use named outlets.<br />
-<br />
-A common mistake is that not all continuing routes (child-routes) are defined in the children-block.<br />
-If you don't define it in the child-block routing may seem to work,<br />
-but things like *ion-back-button* are fucked up.
-
-## Router Tree
-
-![Router Tree](https://i.imgur.com/2JAZAdT.png)
+tbd
 
 ## Getting Started
 ``` 
-git clone https://github.com/servrox/demo-ionic-tab-routing.git
-cd demo-ionic-tab-routing
+git clone https://github.com/servrox/demo-ionic-tabs-back-button.git
+cd demo-ionic-tabs-back-button
 yarn
 ionic serve
 ```

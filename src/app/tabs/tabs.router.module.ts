@@ -13,19 +13,6 @@ const routes: Routes = [
           {
             path: '',
             loadChildren: '../tab1/tab1.module#Tab1PageModule'
-          },
-          {
-            path: 'profile',
-            children: [
-              {
-                path: '',
-                loadChildren: '../profile/profile.module#ProfilePageModule'
-              },
-              {
-                path: 'profile-settings',
-                loadChildren: '../profile-settings/profile-settings.module#ProfileSettingsPageModule'
-              }
-            ]
           }
         ]
       },
