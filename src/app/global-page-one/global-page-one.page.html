@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button *ngIf="useRealBackButton" [defaultHref]="previousPage ? previousPage : '/tabs/tab1'"></ion-back-button>
+      <ion-button *ngIf="!useRealBackButton" (click)="back()">
+        <ion-icon name="arrow-back"></ion-icon>
+        {{ showText ? 'Back' : null }}
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Global Page One</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding></ion-content>

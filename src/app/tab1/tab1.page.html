@@ -7,5 +7,10 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-button routerLink="/tabs/tab1/profile" routerDirection="forward">Profile</ion-button>
+  <ion-button routerLink="/tabs/tab1/profile" routerDirection="forward">
+    Profile
+  </ion-button>
+  <ion-button [routerLink]="['/global-page-one', {p: currentRoute}]" routerDirection="forward">
+    Global Page One
+  </ion-button>
 </ion-content>
