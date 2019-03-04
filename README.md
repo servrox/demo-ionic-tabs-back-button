@@ -3,7 +3,9 @@ Ionic 4 project with a tab based layout and workarounds for the `ion-back-button
 The demo shows two ways how to navigate from a tabbed page to a 'global' page and back,<br />
 **without losing tab-states**.<br />
 
-![Live Demo](http://g.recordit.co/yHQrtSrxud.gif)
+<p align="center">
+  ![Live Demo](http://g.recordit.co/8Lre03MyU6.gif)
+</p>
 
 ## Getting Started
 ``` 
@@ -17,7 +19,7 @@ ionic serve
 ## Solutions shown in demo
 
 [First](#1-passing-previous-page-s-global-page-one) solution is a workaround that overcomes the problem.<br />
-The [second](#2-using-ion-back-button-tabs-component-s-global-page-two) one is a fix which deals directly with the problem.<br />
+The [second](#2-using-ion-back-button-tabs-component-s-global-page-two) one is a fix which deals directly with the problem<br /> by using [`ion-back-button-tabs`](https://www.npmjs.com/package/ion-back-button-tabs) a custom ionic 4 component.<br />
 <br />
 
 
@@ -75,9 +77,9 @@ Final solution looks like this in template:
 <br />
 <br />
 
-### 2. Using `ion-back-button-tabs` component *(s. global-page-two)*
+### 2. Using [`ion-back-button-tabs`](https://www.npmjs.com/package/ion-back-button-tabs) component *(s. global-page-two)*
 
-1. Install 
+1. Install from [npm](https://www.npmjs.com/package/ion-back-button-tabs)
 ```
 npm i ion-back-button-tabs --save
 ```
