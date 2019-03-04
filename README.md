@@ -3,9 +3,7 @@ Ionic 4 project with a tab based layout and workarounds for the `ion-back-button
 The demo shows two ways how to navigate from a tabbed page to a 'global' page and back,<br />
 **without losing tab-states**.<br />
 
-<p align="center">
-  ![Live Demo](http://g.recordit.co/8Lre03MyU6.gif)
-</p>
+![Live Demo](http://g.recordit.co/8Lre03MyU6.gif)
 
 ## Getting Started
 ``` 
