@@ -46,6 +46,7 @@ this.previousPage = this.route.snapshot.paramMap.get('p') ? atob(this.route.snap
 back() { this.navCtrl.navigateBack(this.previousPage); }
 ```
 <br />
+
 To make the `ion-button` look exactly like the `ion-back-button`, you can check which platform is being used.
 
 ```
