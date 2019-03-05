@@ -72,7 +72,15 @@ Final solution looks like this in template:
     </ion-button>
 </ion-buttons>
 ```
+<br />
 
+In this solution swiping back (iOS gesture) is disabled for the particular page.
+```
+ngOnInit() { this.routerOutlet.swipeGesture = !this.plt.is('ios');
+  [...]
+ionViewDidLeave() { this.routerOutlet.swipeGesture = this.plt.is('ios'); }
+```
+`ion-back-button-tabs` supports swiping back! *(see below)*
 <br />
 <br />
 
