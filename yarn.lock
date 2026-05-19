@@ -274,20 +274,23 @@
     to-fast-properties "^2.0.0"
 
 "@ionic-native/core@^5.0.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/core/-/core-5.2.0.tgz#68bf890b3276d481c2266d348028968646002234"
+  version "5.36.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/core/-/core-5.36.0.tgz#712c40a530b119b0039e8d16cb577899f50541d4"
+  integrity sha512-lOrkktadlKYbYf1LrDyAtsu1JnQ0oCCdkOU7iHQ8oXnNOkMwobFfD2m62F1CoOr0u9LIkpYnZSPjng8lZbmbNw==
   dependencies:
     "@types/cordova" latest
 
 "@ionic-native/splash-screen@^5.0.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/splash-screen/-/splash-screen-5.2.0.tgz#4b065f42660fe19291e1b96f425a43eef070a04b"
+  version "5.36.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/splash-screen/-/splash-screen-5.36.0.tgz#70852eaa34aa3bbe283313f82d9d974f755ec7d6"
+  integrity sha512-BfNknY1rrGE8JRnCdKfL5wz8yFLhpPU5FRr8/LA3L+EncvPvcb9LGidePoeH3gVLMkolm2DI2a/rCelNrJ1Sxw==
   dependencies:
     "@types/cordova" latest
 
 "@ionic-native/status-bar@^5.0.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/status-bar/-/status-bar-5.2.0.tgz#ae5df46511cb5b21c43b2587d2fbd433dacc6d80"
+  version "5.36.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/status-bar/-/status-bar-5.36.0.tgz#d28b92c5b435f95c0a837af6c03b309f6e0e3830"
+  integrity sha512-OXC1z+4Iba4lo1dc2+0h4Gvpud3z0XQmEbw0ny9UflCuSkLqBxvmiNRU7CRQwPnT1KaGVXkaSokdwxO8H9IlNg==
   dependencies:
     "@types/cordova" latest
 
@@ -352,8 +355,9 @@
     semver-intersect "1.4.0"
 
 "@types/cordova@latest":
-  version "0.0.34"
-  resolved "https://registry.yarnpkg.com/@types/cordova/-/cordova-0.0.34.tgz#ea7addf74ecec3d7629827a0c39e2c9addc73d04"
+  version "11.0.3"
+  resolved "https://registry.yarnpkg.com/@types/cordova/-/cordova-11.0.3.tgz#4301b1c614899c1c99a83aac45914285462201b7"
+  integrity sha512-kyuRQ40/NWQVhqGIHq78Ehu2Bf9Mlg0LhmSmis6ZFJK7z933FRfYi8tHe/k/0fB+PGfCf95rJC6TO7dopaFvAg==
 
 "@types/jasmine@*":
   version "3.3.9"
