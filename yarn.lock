@@ -3301,9 +3301,10 @@ jasmine-core@~2.8.0:
   version "2.8.0"
   resolved "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-2.8.0.tgz#bcc979ae1f9fd05701e45e52e65d3a5d63f1a24e"
 
-jasmine-core@~2.99.1:
-  version "2.99.1"
-  resolved "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-2.99.1.tgz#e6400df1e6b56e130b61c4bcd093daa7f6e8ca15"
+jasmine-core@~6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-6.2.0.tgz#1e63642766d26e68afd2681d00ace3475004385a"
+  integrity sha512-b16WZG/pFEFj8qRW1ss7nDuNGYz9ji8BDGj7fJNrROauk5rj/diO3KPOuyIpcgUChdC+c0PfQ8iUk4nHE+EN4w==
 
 jasmine-spec-reporter@~4.2.1:
   version "4.2.1"
